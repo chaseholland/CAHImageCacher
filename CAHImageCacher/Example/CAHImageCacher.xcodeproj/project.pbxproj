@@ -14,7 +14,7 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* CAHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* CAHAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* CAHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* CAHViewController.m */; };
+		6003F5A7195388D20070C39A /* CAHTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* CAHTableViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -22,6 +22,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		ABD918EE1BDF062800A69DC9 /* LaunchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = ABD918ED1BDF062800A69DC9 /* LaunchView.xib */; };
 		AD3755905C8FDEBC0DB3A096 /* Pods_CAHImageCacher_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E6A6598220C72E15C1B2D29 /* Pods_CAHImageCacher_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
@@ -39,7 +40,7 @@
 		166A2BE7ECD7DD1FEF2C5221 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		39C0C7EAF647F531DA11FC8E /* Pods-CAHImageCacher_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAHImageCacher_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CAHImageCacher_Tests/Pods-CAHImageCacher_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3C8EDCC564C20587059A33FD /* Pods-CAHImageCacher_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAHImageCacher_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CAHImageCacher_Example/Pods-CAHImageCacher_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6003F58A195388D20070C39A /* CAHImageCacher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = CAHImageCacher.app; path = CAHImageCacher_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* CAHImageCacher_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAHImageCacher_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -49,10 +50,10 @@
 		6003F59B195388D20070C39A /* CAHImageCacher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CAHImageCacher-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* CAHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAHAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* CAHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAHAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* CAHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAHViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* CAHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAHViewController.m; sourceTree = "<group>"; };
+		6003F5A5195388D20070C39A /* CAHTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CAHTableViewController.h; sourceTree = "<group>"; };
+		6003F5A6195388D20070C39A /* CAHTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAHTableViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = CAHImageCacher_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* CAHImageCacher_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAHImageCacher_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -64,6 +65,7 @@
 		7E6A6598220C72E15C1B2D29 /* Pods_CAHImageCacher_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CAHImageCacher_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		880A785B7FB7B1AE1107B1EB /* Pods-CAHImageCacher_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAHImageCacher_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CAHImageCacher_Tests/Pods-CAHImageCacher_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		ABD918ED1BDF062800A69DC9 /* LaunchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchView.xib; sourceTree = "<group>"; };
 		FE15D324D335DA3FCFD7E0C0 /* Pods-CAHImageCacher_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAHImageCacher_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CAHImageCacher_Example/Pods-CAHImageCacher_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -119,8 +121,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* CAHImageCacher.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* CAHImageCacher_Example.app */,
+				6003F5AE195388D20070C39A /* CAHImageCacher_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,8 +146,9 @@
 				6003F59C195388D20070C39A /* CAHAppDelegate.h */,
 				6003F59D195388D20070C39A /* CAHAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* CAHViewController.h */,
-				6003F5A6195388D20070C39A /* CAHViewController.m */,
+				ABD918ED1BDF062800A69DC9 /* LaunchView.xib */,
+				6003F5A5195388D20070C39A /* CAHTableViewController.h */,
+				6003F5A6195388D20070C39A /* CAHTableViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -213,7 +216,7 @@
 			);
 			name = CAHImageCacher_Example;
 			productName = CAHImageCacher;
-			productReference = 6003F58A195388D20070C39A /* CAHImageCacher.app */;
+			productReference = 6003F58A195388D20070C39A /* CAHImageCacher_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* CAHImageCacher_Tests */ = {
@@ -234,7 +237,7 @@
 			);
 			name = CAHImageCacher_Tests;
 			productName = CAHImageCacherTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* CAHImageCacher_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -244,7 +247,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = CAH;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "Chase Holland";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -277,6 +280,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				ABD918EE1BDF062800A69DC9 /* LaunchView.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -391,7 +395,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* CAHAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* CAHViewController.m in Sources */,
+				6003F5A7195388D20070C39A /* CAHTableViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -452,6 +456,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -515,7 +520,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CAHImageCacher/CAHImageCacher-Prefix.pch";
 				INFOPLIST_FILE = "CAHImageCacher/CAHImageCacher-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -530,7 +537,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CAHImageCacher/CAHImageCacher-Prefix.pch";
 				INFOPLIST_FILE = "CAHImageCacher/CAHImageCacher-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -553,6 +562,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAHImageCacher_Example.app/CAHImageCacher_Example";
 				WRAPPER_EXTENSION = xctest;
@@ -572,6 +582,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CAHImageCacher_Example.app/CAHImageCacher_Example";
 				WRAPPER_EXTENSION = xctest;
