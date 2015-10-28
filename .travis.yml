@@ -1,0 +1,4 @@
+sx_image: xcode7.1
+language: objective-c
+xcode_workspace: Example/CAHImageCacher.xcworkspace
+xcode_scheme: CAHImageCacher
