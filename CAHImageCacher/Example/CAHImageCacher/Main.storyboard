@@ -3,6 +3,8 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Arcadia Images-->
@@ -21,7 +23,32 @@
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2zm-eB-o9Z" id="6bx-ss-OVs">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BTH-U5-AkZ">
+                                            <rect key="frame" x="59" y="11" width="308" height="21"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <imageView userInteractionEnabled="NO" tag="100" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="i5a-MC-1AR">
+                                            <rect key="frame" x="8" y="0.0" width="43" height="43"/>
+                                            <animations/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="i5a-MC-1AR" secondAttribute="height" multiplier="1:1" id="uM6-1m-giB"/>
+                                            </constraints>
+                                        </imageView>
+                                    </subviews>
                                     <animations/>
+                                    <constraints>
+                                        <constraint firstItem="BTH-U5-AkZ" firstAttribute="top" secondItem="6bx-ss-OVs" secondAttribute="topMargin" constant="3" id="2FT-25-LCa"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="i5a-MC-1AR" secondAttribute="bottom" constant="-8" id="3Dg-21-R4Q"/>
+                                        <constraint firstItem="BTH-U5-AkZ" firstAttribute="leading" secondItem="i5a-MC-1AR" secondAttribute="trailing" constant="8" id="LWs-An-Nma"/>
+                                        <constraint firstItem="BTH-U5-AkZ" firstAttribute="trailing" secondItem="6bx-ss-OVs" secondAttribute="trailingMargin" id="dNU-Gn-f0v"/>
+                                        <constraint firstItem="i5a-MC-1AR" firstAttribute="top" secondItem="6bx-ss-OVs" secondAttribute="topMargin" constant="-8" id="df6-kl-eMp"/>
+                                        <constraint firstAttribute="bottomMargin" secondItem="BTH-U5-AkZ" secondAttribute="bottom" constant="3" id="oeP-ZJ-6Ja"/>
+                                        <constraint firstItem="i5a-MC-1AR" firstAttribute="leading" secondItem="6bx-ss-OVs" secondAttribute="leadingMargin" id="yrc-83-cw6"/>
+                                    </constraints>
                                 </tableViewCellContentView>
                                 <animations/>
                             </tableViewCell>
@@ -36,7 +63,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W21-hq-966" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="364" y="586"/>
+            <point key="canvasLocation" x="363.5" y="585.5"/>
         </scene>
     </scenes>
 </document>
