@@ -1,15 +1,15 @@
 {
   "name": "CAHImageCacher",
   "version": "0.1.0",
-  "summary": "A short description of CAHImageCacher.",
+  "summary": "Mostly full-featured, asynchronous image cacher with a simple interface.",
   "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/CAHImageCacher",
+  "homepage": "https://github.com/chaseholland/CAHImageCacher",
   "license": "MIT",
   "authors": {
     "Chase Holland": "lurch09@gmail.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/CAHImageCacher.git",
+    "git": "https://github.com/chaseholland/CAHImageCacher.git",
     "tag": "0.1.0"
   },
   "platforms": {
