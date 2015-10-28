@@ -59,7 +59,7 @@
 #pragma mark -
 #pragma mark Tests
 
-- (void)testImageRAMCache
+- (void)testImageRAMCacheViaAsyncLoad
 {
 	XCTestExpectation* exp = FANCY_EXPECTATION();
 	
