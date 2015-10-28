@@ -16,18 +16,19 @@
 //
 /// \brief Removes an image at the specified url from the cache (disk and RAM)
 /// \param url string of image to remove
+/// \note synchronous
 //
 + (void) removeCachedImageAtURL:(NSString*)url;
 
 //
-/// \brief Caches an image both in RAM and to disk.
+/// \brief Caches an image both in RAM and to disk. There is generally no need to call this directly, unless you wish to cache images without displaying them.
 /// \param imageURLString Location to use to cache image or filename
 /// \note synchronous
 //
 + (void) cacheImage:(UIImage*)image atLocation:(NSString *)imageURLString;
 
 //
-/// \brief Retrieves an image from the cache.
+/// \brief Retrieves an image from the cache. There is generally no need to call this unless you need to manipulate images without displaying them.
 /// \param ImageURLString location or URL of image to retrieve
 /// \note synchronous
 //

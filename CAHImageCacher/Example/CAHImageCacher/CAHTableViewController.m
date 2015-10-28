@@ -55,6 +55,8 @@
 	
 	NSDictionary* response = self.results[indexPath.row];
 	detailLabel.text = @"Loading";
+	
+	// load image into image view from web
 	[CAHImageCacher asyncLoadImageIntoImageView:imageView imageURLString:response[@"unescapedUrl"] altImage:nil viewToRefresh:imageView completion:^{
 		detailLabel.text = response[@"titleNoFormatting"];
 	}];
