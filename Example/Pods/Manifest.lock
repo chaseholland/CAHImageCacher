@@ -1,0 +1,14 @@
+PODS:
+  - CAHImageCacher (0.1.0)
+
+DEPENDENCIES:
+  - CAHImageCacher (from `../`)
+
+EXTERNAL SOURCES:
+  CAHImageCacher:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CAHImageCacher: 7e4b1fcf1043ffb304434ae0c85d9eb8cf993c78
+
+COCOAPODS: 0.39.0

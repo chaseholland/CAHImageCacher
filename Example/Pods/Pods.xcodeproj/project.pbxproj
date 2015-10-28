@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		025793771083E13CCFFE32B027BF55C8 /* Pods-CAHImageCacher_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4FB93B744E8762176878DE494D849D3 /* Pods-CAHImageCacher_Example-dummy.m */; };
+		05EFFC7C4EDEB5DF50132E9439B9E1BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		13839344106C9B5BA48E38D67E2A798B /* Pods-CAHImageCacher_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6103E006E712C49CA01C5B26D1AB94E8 /* Pods-CAHImageCacher_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A2A95A2655FF6C4B413D87232C2D968 /* UIImage+AutoMimeType.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A9D0C7EC3016ABE5F34AB2EE75582F5 /* UIImage+AutoMimeType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DE03C03BF4EE05FDC88A28DDA59E1EA /* Pods-CAHImageCacher_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79DF646BCFAFDBA805117C757DCB0042 /* Pods-CAHImageCacher_Tests-dummy.m */; };
+		669EBD4818CB4C82E1ECE2A50822F3FD /* UIImage+AutoMimeType.m in Sources */ = {isa = PBXBuildFile; fileRef = E2033339FD94F3018DD916610B887FD1 /* UIImage+AutoMimeType.m */; };
+		8C95CFB3CF6E38CBD853630231A518CD /* CAHImageCacher.h in Headers */ = {isa = PBXBuildFile; fileRef = 28CB414654F805EAA4BEFB64563F4275 /* CAHImageCacher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D9CD93A1D5E1759D561867860010E79 /* Pods-CAHImageCacher_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3860B86C72540A8F4C8F87E510EA78A4 /* Pods-CAHImageCacher_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1ADD77E7BB565AD9105219E145BA2E5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		B5538146DEE3ED120B4BF1ECBF215416 /* CAHImageCacher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39A2F0E45AEF5C9C0DCD87753E418C86 /* CAHImageCacher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B657705A796AF8F9FC4EC4C83DEE3F3D /* CAHImageCacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF3875F8A707C103C625020404142DA /* CAHImageCacher.m */; };
+		C431424B6FB11B1EB2E53481A11CDE48 /* CAHImageCacher-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72C1F7CD8557A4584C7FF01D4A9EE790 /* CAHImageCacher-dummy.m */; };
+		D9A36BE6C54AF5891D23D329B56D6320 /* CAHImageCacher.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2BCD3960F08E89ECE13F33EA523A7CD6 /* CAHImageCacher.bundle */; };
+		EDCF789151B1AAD2B46DD402B969242D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		447513F1AC650A7FD0E2ED3BB16FBEC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81F2D254952FC22BB2217686F726D9F2;
+			remoteInfo = "CAHImageCacher-CAHImageCacher";
+		};
+		5C57707640AAA2E772F81374E4FC5BFD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20BA03E75A956558A6D1A64DC9FAC840;
+			remoteInfo = CAHImageCacher;
+		};
+		B35629BC3174D9080A430C1B89801136 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 20BA03E75A956558A6D1A64DC9FAC840;
+			remoteInfo = CAHImageCacher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		002D7347038402F4710F9FDDAE5621CE /* Pods-CAHImageCacher_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CAHImageCacher_Tests.modulemap"; sourceTree = "<group>"; };
+		15F6BD4ED9D13AC3106ABC43DFBF87D6 /* CAHImageCacher-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAHImageCacher-prefix.pch"; sourceTree = "<group>"; };
+		2624BD808ECF87DFA7A747F839290CE1 /* Pods-CAHImageCacher_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CAHImageCacher_Example.release.xcconfig"; sourceTree = "<group>"; };
+		28CB414654F805EAA4BEFB64563F4275 /* CAHImageCacher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CAHImageCacher.h; sourceTree = "<group>"; };
+		2A8BC941238505D93825A580AF9BA323 /* Pods-CAHImageCacher_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CAHImageCacher_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2BCD3960F08E89ECE13F33EA523A7CD6 /* CAHImageCacher.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAHImageCacher.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3860B86C72540A8F4C8F87E510EA78A4 /* Pods-CAHImageCacher_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CAHImageCacher_Example-umbrella.h"; sourceTree = "<group>"; };
+		39A2F0E45AEF5C9C0DCD87753E418C86 /* CAHImageCacher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CAHImageCacher-umbrella.h"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4A78F4328A4FC13F1E1093B97CAC9B06 /* CAHImageCacher.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CAHImageCacher.xcconfig; sourceTree = "<group>"; };
+		5A9D0C7EC3016ABE5F34AB2EE75582F5 /* UIImage+AutoMimeType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIImage+AutoMimeType.h"; sourceTree = "<group>"; };
+		5AF3875F8A707C103C625020404142DA /* CAHImageCacher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CAHImageCacher.m; sourceTree = "<group>"; };
+		6103E006E712C49CA01C5B26D1AB94E8 /* Pods-CAHImageCacher_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CAHImageCacher_Tests-umbrella.h"; sourceTree = "<group>"; };
+		63E7E2A4DE629779F44AD6ECB5063715 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A41A0489E043C7F0F9C2006719370AE /* Pods-CAHImageCacher_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CAHImageCacher_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6EF80C03997E3B2AC9A8246FE0C16093 /* CAHImageCacher.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CAHImageCacher.modulemap; sourceTree = "<group>"; };
+		72C1F7CD8557A4584C7FF01D4A9EE790 /* CAHImageCacher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CAHImageCacher-dummy.m"; sourceTree = "<group>"; };
+		79DF646BCFAFDBA805117C757DCB0042 /* Pods-CAHImageCacher_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CAHImageCacher_Tests-dummy.m"; sourceTree = "<group>"; };
+		7B6C086C65FFEACBDCB8FF83CA9C1B9C /* Pods-CAHImageCacher_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CAHImageCacher_Example-resources.sh"; sourceTree = "<group>"; };
+		7B8E68FEEEA9247F9E4527218C7300D7 /* Pods_CAHImageCacher_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CAHImageCacher_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82CFD06BBB90D2B3E375EACCCA4F5BDD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8893E04A4659976930E0D71E5CE1B1B9 /* Pods-CAHImageCacher_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CAHImageCacher_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91EE7A16406E82A93EBBEB8205720DAD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9341A4B5D5E63FFF9256D0875F2E1A96 /* Pods-CAHImageCacher_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CAHImageCacher_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A4FB93B744E8762176878DE494D849D3 /* Pods-CAHImageCacher_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CAHImageCacher_Example-dummy.m"; sourceTree = "<group>"; };
+		AB4DFEBA734ED6D91AC5E7EED35C8C0A /* Pods-CAHImageCacher_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CAHImageCacher_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		AC7F4032A87C448872B2C214F9AE98F1 /* Pods-CAHImageCacher_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CAHImageCacher_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C4A5D1FB4ABD54D68B6AAF7A73EFE55C /* CAHImageCacher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CAHImageCacher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF098FDBA2EF383B20A7A485EEA3B470 /* Pods-CAHImageCacher_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CAHImageCacher_Example-frameworks.sh"; sourceTree = "<group>"; };
+		CF75DA72EB3A61087CFA34A19A4AB558 /* Pods_CAHImageCacher_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CAHImageCacher_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D098B250EC5426F59BC55482918D60DB /* Pods-CAHImageCacher_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CAHImageCacher_Tests-resources.sh"; sourceTree = "<group>"; };
+		D8A8F251125D1B29CBD4FC48BE618733 /* Pods-CAHImageCacher_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CAHImageCacher_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E2033339FD94F3018DD916610B887FD1 /* UIImage+AutoMimeType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AutoMimeType.m"; sourceTree = "<group>"; };
+		E6FF20AFA5AC324ADC47A0335179EA7F /* Pods-CAHImageCacher_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CAHImageCacher_Example.modulemap"; sourceTree = "<group>"; };
+		F9C10F6BF12C5372CC55C43C5291C4CC /* Pods-CAHImageCacher_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CAHImageCacher_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48DB9FD2D22E7769EDAA488A126C1A33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDCF789151B1AAD2B46DD402B969242D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58EB3F34EFA2F981E5018457D251153D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54AF49F7A8979FE5F7663E5084A3786 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05EFFC7C4EDEB5DF50132E9439B9E1BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB5AAD146C9F712D18A32361AB68B153 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1ADD77E7BB565AD9105219E145BA2E5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15902691B59FB9639CACE51C6DFDE235 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E5968F3390EF6E6C6DD3952A938E511 /* Pods-CAHImageCacher_Example */,
+				FA034F24113FEF5DA06A6504B262DE7C /* Pods-CAHImageCacher_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		323C01AE695E3B2454679BC73154D44E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BCD3960F08E89ECE13F33EA523A7CD6 /* CAHImageCacher.bundle */,
+				C4A5D1FB4ABD54D68B6AAF7A73EFE55C /* CAHImageCacher.framework */,
+				7B8E68FEEEA9247F9E4527218C7300D7 /* Pods_CAHImageCacher_Example.framework */,
+				CF75DA72EB3A61087CFA34A19A4AB558 /* Pods_CAHImageCacher_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4910C276C42B09AC1244353B35763FA6 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				81F052325396674EC06A101D1A8381D8 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		4E5968F3390EF6E6C6DD3952A938E511 /* Pods-CAHImageCacher_Example */ = {
+			isa = PBXGroup;
+			children = (
+				82CFD06BBB90D2B3E375EACCCA4F5BDD /* Info.plist */,
+				E6FF20AFA5AC324ADC47A0335179EA7F /* Pods-CAHImageCacher_Example.modulemap */,
+				8893E04A4659976930E0D71E5CE1B1B9 /* Pods-CAHImageCacher_Example-acknowledgements.markdown */,
+				9341A4B5D5E63FFF9256D0875F2E1A96 /* Pods-CAHImageCacher_Example-acknowledgements.plist */,
+				A4FB93B744E8762176878DE494D849D3 /* Pods-CAHImageCacher_Example-dummy.m */,
+				CF098FDBA2EF383B20A7A485EEA3B470 /* Pods-CAHImageCacher_Example-frameworks.sh */,
+				7B6C086C65FFEACBDCB8FF83CA9C1B9C /* Pods-CAHImageCacher_Example-resources.sh */,
+				3860B86C72540A8F4C8F87E510EA78A4 /* Pods-CAHImageCacher_Example-umbrella.h */,
+				AC7F4032A87C448872B2C214F9AE98F1 /* Pods-CAHImageCacher_Example.debug.xcconfig */,
+				2624BD808ECF87DFA7A747F839290CE1 /* Pods-CAHImageCacher_Example.release.xcconfig */,
+			);
+			name = "Pods-CAHImageCacher_Example";
+			path = "Target Support Files/Pods-CAHImageCacher_Example";
+			sourceTree = "<group>";
+		};
+		6B2F36450D248F65B714DAE83DD4A530 /* CAHImageCacher */ = {
+			isa = PBXGroup;
+			children = (
+				4910C276C42B09AC1244353B35763FA6 /* Pod */,
+				D272058F04A6BC89DF6B4BDC8F0FACFD /* Support Files */,
+			);
+			name = CAHImageCacher;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				A5EBDD63B88F0E64A8FF146D2D5BA94A /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				323C01AE695E3B2454679BC73154D44E /* Products */,
+				15902691B59FB9639CACE51C6DFDE235 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		81F052325396674EC06A101D1A8381D8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				28CB414654F805EAA4BEFB64563F4275 /* CAHImageCacher.h */,
+				5AF3875F8A707C103C625020404142DA /* CAHImageCacher.m */,
+				5A9D0C7EC3016ABE5F34AB2EE75582F5 /* UIImage+AutoMimeType.h */,
+				E2033339FD94F3018DD916610B887FD1 /* UIImage+AutoMimeType.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A5EBDD63B88F0E64A8FF146D2D5BA94A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6B2F36450D248F65B714DAE83DD4A530 /* CAHImageCacher */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D272058F04A6BC89DF6B4BDC8F0FACFD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EF80C03997E3B2AC9A8246FE0C16093 /* CAHImageCacher.modulemap */,
+				4A78F4328A4FC13F1E1093B97CAC9B06 /* CAHImageCacher.xcconfig */,
+				72C1F7CD8557A4584C7FF01D4A9EE790 /* CAHImageCacher-dummy.m */,
+				15F6BD4ED9D13AC3106ABC43DFBF87D6 /* CAHImageCacher-prefix.pch */,
+				39A2F0E45AEF5C9C0DCD87753E418C86 /* CAHImageCacher-umbrella.h */,
+				63E7E2A4DE629779F44AD6ECB5063715 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CAHImageCacher";
+			sourceTree = "<group>";
+		};
+		FA034F24113FEF5DA06A6504B262DE7C /* Pods-CAHImageCacher_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				91EE7A16406E82A93EBBEB8205720DAD /* Info.plist */,
+				002D7347038402F4710F9FDDAE5621CE /* Pods-CAHImageCacher_Tests.modulemap */,
+				F9C10F6BF12C5372CC55C43C5291C4CC /* Pods-CAHImageCacher_Tests-acknowledgements.markdown */,
+				D8A8F251125D1B29CBD4FC48BE618733 /* Pods-CAHImageCacher_Tests-acknowledgements.plist */,
+				79DF646BCFAFDBA805117C757DCB0042 /* Pods-CAHImageCacher_Tests-dummy.m */,
+				AB4DFEBA734ED6D91AC5E7EED35C8C0A /* Pods-CAHImageCacher_Tests-frameworks.sh */,
+				D098B250EC5426F59BC55482918D60DB /* Pods-CAHImageCacher_Tests-resources.sh */,
+				6103E006E712C49CA01C5B26D1AB94E8 /* Pods-CAHImageCacher_Tests-umbrella.h */,
+				2A8BC941238505D93825A580AF9BA323 /* Pods-CAHImageCacher_Tests.debug.xcconfig */,
+				6A41A0489E043C7F0F9C2006719370AE /* Pods-CAHImageCacher_Tests.release.xcconfig */,
+			);
+			name = "Pods-CAHImageCacher_Tests";
+			path = "Target Support Files/Pods-CAHImageCacher_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		038BC03FCFE48FEEE33DD0194D22D660 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5538146DEE3ED120B4BF1ECBF215416 /* CAHImageCacher-umbrella.h in Headers */,
+				8C95CFB3CF6E38CBD853630231A518CD /* CAHImageCacher.h in Headers */,
+				4A2A95A2655FF6C4B413D87232C2D968 /* UIImage+AutoMimeType.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A796E56841F038CFA66140C0AF0953E7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13839344106C9B5BA48E38D67E2A798B /* Pods-CAHImageCacher_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA4CEE46192F951C6E5C223DEADED57A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D9CD93A1D5E1759D561867860010E79 /* Pods-CAHImageCacher_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		20BA03E75A956558A6D1A64DC9FAC840 /* CAHImageCacher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E4AC279CFF6229C87106C5A876A724F /* Build configuration list for PBXNativeTarget "CAHImageCacher" */;
+			buildPhases = (
+				5C2D0672DC7FDCE1AC6F6400BEFFEADC /* Sources */,
+				CB5AAD146C9F712D18A32361AB68B153 /* Frameworks */,
+				6FCA792C050C72550D7404874D0E44FB /* Resources */,
+				038BC03FCFE48FEEE33DD0194D22D660 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE182F6DC4D5A50579A7345260D4D740 /* PBXTargetDependency */,
+			);
+			name = CAHImageCacher;
+			productName = CAHImageCacher;
+			productReference = C4A5D1FB4ABD54D68B6AAF7A73EFE55C /* CAHImageCacher.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		23DA2CBB3D3417F1EEAA28A270ADEE2C /* Pods-CAHImageCacher_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CD0CA977D45E0B6737911373E622EC7 /* Build configuration list for PBXNativeTarget "Pods-CAHImageCacher_Example" */;
+			buildPhases = (
+				F763848CDB565E13FE796648E3FDAFFD /* Sources */,
+				48DB9FD2D22E7769EDAA488A126C1A33 /* Frameworks */,
+				FA4CEE46192F951C6E5C223DEADED57A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A53B4E0541C014E5DD67B6838B54D22B /* PBXTargetDependency */,
+			);
+			name = "Pods-CAHImageCacher_Example";
+			productName = "Pods-CAHImageCacher_Example";
+			productReference = 7B8E68FEEEA9247F9E4527218C7300D7 /* Pods_CAHImageCacher_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		81F2D254952FC22BB2217686F726D9F2 /* CAHImageCacher-CAHImageCacher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AE3FC1F7D06D4F9944BA118F4ADA2BE /* Build configuration list for PBXNativeTarget "CAHImageCacher-CAHImageCacher" */;
+			buildPhases = (
+				D76A74706B79C51EA451F4427C4931D0 /* Sources */,
+				58EB3F34EFA2F981E5018457D251153D /* Frameworks */,
+				F9076AA81E1D48024168DD06C2A169F9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CAHImageCacher-CAHImageCacher";
+			productName = "CAHImageCacher-CAHImageCacher";
+			productReference = 2BCD3960F08E89ECE13F33EA523A7CD6 /* CAHImageCacher.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		B1186D8F813AF5B2E8DB450AD6117040 /* Pods-CAHImageCacher_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA5751DBCD5D80C5D95C65C753C43298 /* Build configuration list for PBXNativeTarget "Pods-CAHImageCacher_Tests" */;
+			buildPhases = (
+				C9A2D048AFC42E8AEE7C559786F011A5 /* Sources */,
+				B54AF49F7A8979FE5F7663E5084A3786 /* Frameworks */,
+				A796E56841F038CFA66140C0AF0953E7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11DD1F6CAA3C28507FE884983BDD3277 /* PBXTargetDependency */,
+			);
+			name = "Pods-CAHImageCacher_Tests";
+			productName = "Pods-CAHImageCacher_Tests";
+			productReference = CF75DA72EB3A61087CFA34A19A4AB558 /* Pods_CAHImageCacher_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 323C01AE695E3B2454679BC73154D44E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20BA03E75A956558A6D1A64DC9FAC840 /* CAHImageCacher */,
+				81F2D254952FC22BB2217686F726D9F2 /* CAHImageCacher-CAHImageCacher */,
+				23DA2CBB3D3417F1EEAA28A270ADEE2C /* Pods-CAHImageCacher_Example */,
+				B1186D8F813AF5B2E8DB450AD6117040 /* Pods-CAHImageCacher_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6FCA792C050C72550D7404874D0E44FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A36BE6C54AF5891D23D329B56D6320 /* CAHImageCacher.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9076AA81E1D48024168DD06C2A169F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C2D0672DC7FDCE1AC6F6400BEFFEADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C431424B6FB11B1EB2E53481A11CDE48 /* CAHImageCacher-dummy.m in Sources */,
+				B657705A796AF8F9FC4EC4C83DEE3F3D /* CAHImageCacher.m in Sources */,
+				669EBD4818CB4C82E1ECE2A50822F3FD /* UIImage+AutoMimeType.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C9A2D048AFC42E8AEE7C559786F011A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DE03C03BF4EE05FDC88A28DDA59E1EA /* Pods-CAHImageCacher_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D76A74706B79C51EA451F4427C4931D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F763848CDB565E13FE796648E3FDAFFD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				025793771083E13CCFFE32B027BF55C8 /* Pods-CAHImageCacher_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11DD1F6CAA3C28507FE884983BDD3277 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CAHImageCacher;
+			target = 20BA03E75A956558A6D1A64DC9FAC840 /* CAHImageCacher */;
+			targetProxy = 5C57707640AAA2E772F81374E4FC5BFD /* PBXContainerItemProxy */;
+		};
+		A53B4E0541C014E5DD67B6838B54D22B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CAHImageCacher;
+			target = 20BA03E75A956558A6D1A64DC9FAC840 /* CAHImageCacher */;
+			targetProxy = B35629BC3174D9080A430C1B89801136 /* PBXContainerItemProxy */;
+		};
+		BE182F6DC4D5A50579A7345260D4D740 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CAHImageCacher-CAHImageCacher";
+			target = 81F2D254952FC22BB2217686F726D9F2 /* CAHImageCacher-CAHImageCacher */;
+			targetProxy = 447513F1AC650A7FD0E2ED3BB16FBEC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04C63A112EA9D014AC4D493EB8D3FDBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC7F4032A87C448872B2C214F9AE98F1 /* Pods-CAHImageCacher_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CAHImageCacher_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CAHImageCacher_Example/Pods-CAHImageCacher_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CAHImageCacher_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		0EB140DA0A60F1AD4B1B9D8C7C77CF67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A78F4328A4FC13F1E1093B97CAC9B06 /* CAHImageCacher.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CAHImageCacher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		2A3B48CF80CE7B786FA55F6E3CE3334D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A78F4328A4FC13F1E1093B97CAC9B06 /* CAHImageCacher.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = CAHImageCacher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		662702ABD3F31A366AF94E9A4CFEAB76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A8BC941238505D93825A580AF9BA323 /* Pods-CAHImageCacher_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CAHImageCacher_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CAHImageCacher_Tests/Pods-CAHImageCacher_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CAHImageCacher_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6B83F0EC57A54701493ECC8CE892A878 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A41A0489E043C7F0F9C2006719370AE /* Pods-CAHImageCacher_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CAHImageCacher_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CAHImageCacher_Tests/Pods-CAHImageCacher_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CAHImageCacher_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		70EAEDFC2D4B1C4B198C4F180B036155 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A78F4328A4FC13F1E1093B97CAC9B06 /* CAHImageCacher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CAHImageCacher/CAHImageCacher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CAHImageCacher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CAHImageCacher/CAHImageCacher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CAHImageCacher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90CA6780424D5DF1335F7221B3EDECF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A78F4328A4FC13F1E1093B97CAC9B06 /* CAHImageCacher.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CAHImageCacher/CAHImageCacher-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CAHImageCacher/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CAHImageCacher/CAHImageCacher.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CAHImageCacher;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1FE42A169DC53AAEA23C5FA024CE632 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2624BD808ECF87DFA7A747F839290CE1 /* Pods-CAHImageCacher_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CAHImageCacher_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CAHImageCacher_Example/Pods-CAHImageCacher_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_CAHImageCacher_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AE3FC1F7D06D4F9944BA118F4ADA2BE /* Build configuration list for PBXNativeTarget "CAHImageCacher-CAHImageCacher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A3B48CF80CE7B786FA55F6E3CE3334D /* Debug */,
+				0EB140DA0A60F1AD4B1B9D8C7C77CF67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E4AC279CFF6229C87106C5A876A724F /* Build configuration list for PBXNativeTarget "CAHImageCacher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				70EAEDFC2D4B1C4B198C4F180B036155 /* Debug */,
+				90CA6780424D5DF1335F7221B3EDECF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CD0CA977D45E0B6737911373E622EC7 /* Build configuration list for PBXNativeTarget "Pods-CAHImageCacher_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04C63A112EA9D014AC4D493EB8D3FDBC /* Debug */,
+				A1FE42A169DC53AAEA23C5FA024CE632 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA5751DBCD5D80C5D95C65C753C43298 /* Build configuration list for PBXNativeTarget "Pods-CAHImageCacher_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				662702ABD3F31A366AF94E9A4CFEAB76 /* Debug */,
+				6B83F0EC57A54701493ECC8CE892A878 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

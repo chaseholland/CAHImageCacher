@@ -1,0 +1,25 @@
+{
+  "name": "CAHImageCacher",
+  "version": "0.1.0",
+  "summary": "Mostly full-featured, asynchronous image cacher with a simple interface.",
+  "description": "",
+  "homepage": "https://github.com/chaseholland/CAHImageCacher",
+  "license": "MIT",
+  "authors": {
+    "Chase Holland": "lurch09@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/chaseholland/CAHImageCacher.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "CAHImageCacher": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

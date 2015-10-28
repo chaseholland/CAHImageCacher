@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'CAHImageCacher_Example', :exclusive => true do
+  pod "CAHImageCacher", :path => "../"
+end
+
+target 'CAHImageCacher_Tests', :exclusive => true do
+  pod "CAHImageCacher", :path => "../"
+
+  
+end
