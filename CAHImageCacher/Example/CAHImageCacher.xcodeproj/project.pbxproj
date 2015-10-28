@@ -66,6 +66,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		880A785B7FB7B1AE1107B1EB /* Pods-CAHImageCacher_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAHImageCacher_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CAHImageCacher_Tests/Pods-CAHImageCacher_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		ABD918ED1BDF062800A69DC9 /* LaunchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchView.xib; sourceTree = "<group>"; };
+		ABD918EF1BE0504100A69DC9 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 		FE15D324D335DA3FCFD7E0C0 /* Pods-CAHImageCacher_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CAHImageCacher_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CAHImageCacher_Example/Pods-CAHImageCacher_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -143,6 +144,7 @@
 		6003F593195388D20070C39A /* Example for CAHImageCacher */ = {
 			isa = PBXGroup;
 			children = (
+				ABD918EF1BE0504100A69DC9 /* Config.h */,
 				6003F59C195388D20070C39A /* CAHAppDelegate.h */,
 				6003F59D195388D20070C39A /* CAHAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,

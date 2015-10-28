@@ -1,6 +1,0 @@
-framework module CAHImageCacher {
-  umbrella header "CAHImageCacher-umbrella.h"
-
-  export *
-  module * { export * }
-}

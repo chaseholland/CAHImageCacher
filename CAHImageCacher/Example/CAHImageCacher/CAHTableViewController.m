@@ -8,8 +8,7 @@
 
 #import "CAHTableViewController.h"
 #import "CAHImageCacher.h"
-
-#define QUERY_URL @"https://ajax.googleapis.com/ajax/services/search/images?v=1.0&q=national+park+scenery"
+#import "Config.h"
 
 @interface CAHTableViewController ()
 
@@ -57,7 +56,7 @@
 	detailLabel.text = @"Loading";
 	
 	// load image into image view from web
-	[CAHImageCacher asyncLoadImageIntoImageView:imageView imageURLString:response[@"unescapedUrl"] altImage:nil viewToRefresh:imageView completion:^{
+	[CAHImageCacher asyncLoadImageIntoImageView:imageView imageURLString:response[@"unescapedUrl"] altImage:[UIImage imageNamed:@"TestImage"] viewToRefresh:imageView completion:^{
 		detailLabel.text = response[@"titleNoFormatting"];
 	}];
 	
