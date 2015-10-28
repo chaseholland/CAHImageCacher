@@ -5,8 +5,8 @@
 //  Copyright (c) 2015 Chase Holland. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
-
+@import Foundation;
+@import UIKit;
 
 @interface CAHImageCacher : NSObject
 
