@@ -19,11 +19,11 @@ or it's simpler variants.
 Here is the sample from the sample app:
 
 ```
-	// load image into image view from web
-	[CAHImageCacher asyncLoadImageIntoImageView:imageView imageURLString:response[@"unescapedUrl"] altImage:nil viewToRefresh:imageView completion:^{
-		// Set the description once loading is complete
-		detailLabel.text = response[@"titleNoFormatting"];
-	}];
+// load image into image view from web
+[CAHImageCacher asyncLoadImageIntoImageView:imageView imageURLString:response[@"unescapedUrl"] altImage:nil viewToRefresh:imageView completion:^{
+	// Set the description once loading is complete
+	detailLabel.text = response[@"titleNoFormatting"];
+}];
 ```
 	
 Or, in the greater context of loading an image into a table view cell:
