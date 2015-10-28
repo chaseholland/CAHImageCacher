@@ -18,17 +18,17 @@ or it's simpler variants.
 
 Here is the sample from the sample app:
 
-`	
+```
 	// load image into image view from web
 	[CAHImageCacher asyncLoadImageIntoImageView:imageView imageURLString:response[@"unescapedUrl"] altImage:nil viewToRefresh:imageView completion:^{
-	  // Set the description once loading is complete
+		// Set the description once loading is complete
 		detailLabel.text = response[@"titleNoFormatting"];
 	}];
-`
+```
 	
 Or, in the greater context of loading an image into a table view cell:
 
-`
+```
 - (UITableViewCell*) tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
 	UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ImageCell"];
 	if (cell == nil) {
@@ -50,4 +50,4 @@ Or, in the greater context of loading an image into a table view cell:
 
 	return cell;
 }
-`
+```
