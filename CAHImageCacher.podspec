@@ -17,7 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
-Mostly full-featured, asynchronous image cacher with a simple interface. CAHImageCacher asynchronously downloads an image from a URL, caches it to a dictionary, renders it to a UIImageView, and saves it to disk.
+			Mostly full-featured, asynchronous image cacher with a simple interface. CAHImageCacher
+			asynchronously downloads an image from a URL, caches it to a dictionary, renders it to a
+			UIImageView, and saves it to disk.
                        DESC
 
   s.homepage         = "https://github.com/chaseholland/CAHImageCacher"
@@ -36,6 +38,6 @@ Mostly full-featured, asynchronous image cacher with a simple interface. CAHImag
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
