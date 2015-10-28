@@ -1,9 +1,8 @@
 //
-//  UIImageCacher.h
-//  Minefield
+//  CAHImageCacher.m
 //
 //  Created by Chase Holland on 7/12/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2015 Chase Holland. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

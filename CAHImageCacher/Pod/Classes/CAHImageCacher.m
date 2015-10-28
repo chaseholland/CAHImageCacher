@@ -1,8 +1,8 @@
 //
-//  UIImageCacher.m
+//  CAHImageCacher.m
 //
 //  Created by Chase Holland on 7/12/11.
-//  Copyright 2015 Chase Holland. All rights reserved.
+//  Copyright (c) 2015 Chase Holland. All rights reserved.
 //
 
 #import "CAHImageCacher.h"
