@@ -10,7 +10,7 @@ As such, CAHImageCacher is fantastic for downloading static images from a server
 Basic Useage
 ------------
 
-Basic useage is included in the enclosed sample app for using CAHImageCacher to load images into a table view, but the most common use case will be some various of 
+Basic useage is included in the enclosed sample app for using CAHImageCacher to load images into a table view, but the most common use case will be some variation of 
 
 `+ (void) asyncLoadImageIntoImageView:(UIImageView*)imageView imageURLString:(NSString*)string altImage:(UIImage*)altImage viewToRefresh:(UIView*)view completion:(void (^)(void))completion;`
 
